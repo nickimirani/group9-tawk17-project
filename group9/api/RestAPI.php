@@ -9,6 +9,9 @@ if (!defined('MY_APP') && basename($_SERVER['PHP_SELF']) == basename(__FILE__)) 
 // Includes functions for sending response as JSON
 // as well as parsing the request.
 
+require_once __DIR__ . "/../business-logic/AuthService.php";
+require_once __DIR__ . "/../business-logic/UsersService.php";
+
 class RestAPI
 {
 
