@@ -4,6 +4,8 @@ require_once __DIR__ . "/../Template.php";
 Template::header("Home");
 ?>
 
+<h3>You are logged in as: <?= $this->home ?></h3>
+
 <h1>Track your workouts</h1>
 
 
